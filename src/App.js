@@ -1,9 +1,10 @@
-import React from "react"
-import Customers from "./components/Customers"
+import React from "react";
+import Customers from "./components/Customers";
+import './styles.scss';
 
 function App() {
     return (
-        <div  style={{maxWidth: '450px', border: '1px solid #dedeed', margin: '2rem', padding: '1rem'}}>
+        <div className="customer-app">
             <Customers />
         </div>
     )
